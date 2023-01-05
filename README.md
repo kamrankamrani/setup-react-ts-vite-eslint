@@ -39,16 +39,6 @@ create a `.prettierrc` file. put minimal configiration there:
 {}
 ```
 
-add this line in *script* section, in the `package.json` file:
-
-```
-"format": "prettier --write \"src/**/*.{js,jsx,ts,tsx}\"",
-```
-
-the line above means that prettier format code for the src folder.
-
-later you can use `npm run format` to format your codes in `src` folder.
-
 ## 3. Add eslint:
 
 ```
@@ -207,7 +197,7 @@ add following commands to run with npm:
 "typecheck": "tsc --noEmit"
 ```
 
-then you can use `npm run lint` or `npm run typecheck` easily.
+then you can use `npm run lint` , `npm run typecheck` or `npm run format` easily.
 
 
 ### Contact:
