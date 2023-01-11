@@ -237,7 +237,7 @@ then you can use `npm run lint` , `npm run typecheck` or `npm run format` easily
   }
 }
 ```
-
+   
 
 ### Contact:
 
